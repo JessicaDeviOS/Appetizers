@@ -19,6 +19,7 @@
 		4CFAF2D928A1F3B400BFF005 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2D828A1F3B400BFF005 /* NetworkManager.swift */; };
 		4CFAF2DB28A1F4EF00BFF005 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2DA28A1F4EF00BFF005 /* APError.swift */; };
 		4CFAF2E428A324B600BFF005 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2E328A324B600BFF005 /* AppetizerListViewModel.swift */; };
+		4CFAF2E628A326BA00BFF005 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2E528A326BA00BFF005 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		4CFAF2D828A1F3B400BFF005 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		4CFAF2DA28A1F4EF00BFF005 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		4CFAF2E328A324B600BFF005 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
+		4CFAF2E528A326BA00BFF005 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				4C9665762894C58300B573CE /* AppetizersApp.swift */,
 				4C96657A2894C58500B573CE /* Assets.xcassets */,
 				4C96657C2894C58500B573CE /* Preview Content */,
+				4CFAF2E528A326BA00BFF005 /* Alert.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				4C9665792894C58300B573CE /* AppetizerTabView.swift in Sources */,
 				4CFAF2D928A1F3B400BFF005 /* NetworkManager.swift in Sources */,
 				4C9665772894C58300B573CE /* AppetizersApp.swift in Sources */,
+				4CFAF2E628A326BA00BFF005 /* Alert.swift in Sources */,
 				4C9665852894C5F800B573CE /* AppetizerListView.swift in Sources */,
 				4C9665892894C60A00B573CE /* OrderView.swift in Sources */,
 			);
