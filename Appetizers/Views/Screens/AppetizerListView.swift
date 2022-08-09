@@ -8,33 +8,20 @@
 import SwiftUI
 
 struct AppetizerListView: View {
-    @State private var appetizers: [Appetizer] = []
+    @StateObject var viewModel = AppetizerListViewModel() 
     
     var body: some View {
         NavigationView {
-            List(appetizers) { appetizer in
+            List(viewModel.appetizers) { appetizer in
                 AppetizerListCell(appetizer: appetizer)
             }
             .navigationTitle("🍟 Appetizers")
         }
         .onAppear {
-            getAppetizers()
+            viewModel.getAppetizers()
         }
     }
     
-    private func getAppetizers() {
-        NetworkManager.shared.getAppetizers { result in
-            // go to the main thread because this is SwiftUI and setting an @State property will trigger a UI update
-            DispatchQueue.main.async {
-                switch result {
-                case .success(let appetizers):
-                    self.appetizers = appetizers
-                case .failure(let error):
-                    print("oh no \(error)")
-                }
-            }
-        }
-    }
 }
 
 struct AppetizerListView_Previews: PreviewProvider {

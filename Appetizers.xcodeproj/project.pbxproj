@@ -18,6 +18,7 @@
 		4CFAF2D628A1F23A00BFF005 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2D528A1F23A00BFF005 /* AppetizerListCell.swift */; };
 		4CFAF2D928A1F3B400BFF005 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2D828A1F3B400BFF005 /* NetworkManager.swift */; };
 		4CFAF2DB28A1F4EF00BFF005 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2DA28A1F4EF00BFF005 /* APError.swift */; };
+		4CFAF2E428A324B600BFF005 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2E328A324B600BFF005 /* AppetizerListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		4CFAF2D528A1F23A00BFF005 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		4CFAF2D828A1F3B400BFF005 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		4CFAF2DA28A1F4EF00BFF005 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		4CFAF2E328A324B600BFF005 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		4C9665752894C58300B573CE /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				4CFAF2E228A324A000BFF005 /* ViewModels */,
 				4CFAF2D128A1EA6700BFF005 /* Models */,
 				4C96658A2894C61100B573CE /* Views */,
 				4C9665762894C58300B573CE /* AppetizersApp.swift */,
@@ -118,6 +121,14 @@
 				4CFAF2D528A1F23A00BFF005 /* AppetizerListCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		4CFAF2E228A324A000BFF005 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4CFAF2E328A324B600BFF005 /* AppetizerListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 				4CFAF2D328A1EA7900BFF005 /* Appetizer.swift in Sources */,
 				4CFAF2DB28A1F4EF00BFF005 /* APError.swift in Sources */,
 				4CFAF2D628A1F23A00BFF005 /* AppetizerListCell.swift in Sources */,
+				4CFAF2E428A324B600BFF005 /* AppetizerListViewModel.swift in Sources */,
 				4C9665872894C60100B573CE /* AccountView.swift in Sources */,
 				4C9665792894C58300B573CE /* AppetizerTabView.swift in Sources */,
 				4CFAF2D928A1F3B400BFF005 /* NetworkManager.swift in Sources */,
