@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct AppetizerDetailView: View {
+    @Binding var isShowingDetail: Bool 
     let appetizer: Appetizer
     
     var body: some View {
@@ -68,7 +69,7 @@ struct AppetizerDetailView: View {
             Spacer()
             
             Button {
-                print("tapped")
+                print("Add to Order Pressed")
             } label: {
                 Text("$\(appetizer.price, specifier: "%.2f") - Add to Order")
                     .font(.title3)
@@ -85,7 +86,7 @@ struct AppetizerDetailView: View {
         .cornerRadius(12)
         .shadow(radius: 40)
         .overlay(Button {
-            print("dismiss")
+            isShowingDetail = false
         } label: {
             ZStack {
                 Circle()
@@ -104,6 +105,6 @@ struct AppetizerDetailView: View {
 
 struct AppetizerDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        AppetizerDetailView(appetizer: MockData.sampleAppetizer)
+        AppetizerDetailView(isShowingDetail: Binding.constant(true), appetizer: MockData.sampleAppetizer)
     }
 }
