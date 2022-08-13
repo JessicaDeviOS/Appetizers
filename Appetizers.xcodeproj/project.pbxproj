@@ -27,6 +27,7 @@
 		4CFAF2F128A5D3FE00BFF005 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2F028A5D3FE00BFF005 /* APButton.swift */; };
 		4CFAF2F328A5D4AC00BFF005 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2F228A5D4AC00BFF005 /* XDismissButton.swift */; };
 		4CFAF2FA28A7293B00BFF005 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2F928A7293B00BFF005 /* AccountViewModel.swift */; };
+		4CFAF2FD28A72AED00BFF005 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2FC28A72AED00BFF005 /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		4CFAF2F028A5D3FE00BFF005 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		4CFAF2F228A5D4AC00BFF005 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		4CFAF2F928A7293B00BFF005 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		4CFAF2FC28A72AED00BFF005 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		4C9665752894C58300B573CE /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				4CFAF2FB28A72AE100BFF005 /* Extensions */,
 				4CFAF2E228A324A000BFF005 /* ViewModels */,
 				4CFAF2D128A1EA6700BFF005 /* Models */,
 				4C96658A2894C61100B573CE /* Views */,
@@ -106,7 +109,6 @@
 			children = (
 				4CFAF2EF28A5D3F100BFF005 /* Buttons */,
 				4CFAF2EB28A4847E00BFF005 /* RemoteImage.swift */,
-				4CFAF2E928A32BE700BFF005 /* Color+Ext.swift */,
 				4CFAF2E528A326BA00BFF005 /* Alert.swift */,
 				4CFAF2E728A32B3400BFF005 /* ActivityIndicator.swift */,
 				4CFAF2D428A1F22B00BFF005 /* Cells */,
@@ -161,6 +163,15 @@
 				4CFAF2F228A5D4AC00BFF005 /* XDismissButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		4CFAF2FB28A72AE100BFF005 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4CFAF2FC28A72AED00BFF005 /* String+Ext.swift */,
+				4CFAF2E928A32BE700BFF005 /* Color+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +257,7 @@
 				4C9665792894C58300B573CE /* AppetizerTabView.swift in Sources */,
 				4CFAF2D928A1F3B400BFF005 /* NetworkManager.swift in Sources */,
 				4CFAF2EC28A4847E00BFF005 /* RemoteImage.swift in Sources */,
+				4CFAF2FD28A72AED00BFF005 /* String+Ext.swift in Sources */,
 				4CFAF2EE28A48A4B00BFF005 /* AppetizerDetailView.swift in Sources */,
 				4C9665772894C58300B573CE /* AppetizersApp.swift in Sources */,
 				4CFAF2E628A326BA00BFF005 /* Alert.swift in Sources */,

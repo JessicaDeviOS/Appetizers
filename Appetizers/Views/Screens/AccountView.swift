@@ -10,7 +10,6 @@ import SwiftUI
 struct AccountView: View {
     @StateObject var viewModel = AccountViewModel()
     
-    
     var body: some View {
         NavigationView {
             Form {
@@ -26,6 +25,7 @@ struct AccountView: View {
                     
                     Button {
                         print("Save")
+                        viewModel.saveChanges()
                     } label: {
                         Text("Save Changes")
                     }
@@ -39,6 +39,10 @@ struct AccountView: View {
                     
             }
             .navigationTitle("Account")
+        }
+        // TODO: will be deprecated in future
+        .alert(item: $viewModel.alertItem) { alertItem in
+            Alert(title: alertItem.title, message: alertItem.message, dismissButton: alertItem.dismissButton)
         }
     }
 }
