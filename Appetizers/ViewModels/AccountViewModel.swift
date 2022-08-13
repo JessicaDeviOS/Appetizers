@@ -5,10 +5,11 @@
 //  Created by Jessica Mallian on 8/12/22.
 //
 
-import Foundation
+import SwiftUI
 
-// TODO: maybe put ViewModels with their Views in one folder? 
+// TODO: maybe put ViewModels with their Views in one folder?
 class AccountViewModel: ObservableObject {
+    @AppStorage("user") private var userData: Data? // will save to UserDefaults with key "user" when set
     @Published var user = User()
     @Published var alertItem: AlertItem? 
     
@@ -27,6 +28,25 @@ class AccountViewModel: ObservableObject {
     
     func saveChanges() {
         guard isValidForm else { return }
-        print("changes will totally be saved")
+        
+        do {
+            let data = try JSONEncoder().encode(user)
+            userData = data
+            alertItem = AlertContext.userSaveSuccess
+        } catch {
+            alertItem = AlertContext.invalidUserData
+        }
+    }
+    
+    func retrieveUser() {
+        guard let userData = userData else {
+            return
+        }
+        
+        do {
+            user = try JSONDecoder().decode(User.self, from: userData)
+        } catch {
+            alertItem = AlertContext.invalidUserData
+        }
     }
 }

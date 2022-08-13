@@ -40,6 +40,9 @@ struct AccountView: View {
             }
             .navigationTitle("Account")
         }
+        .onAppear {
+            viewModel.retrieveUser()
+        }
         // TODO: will be deprecated in future
         .alert(item: $viewModel.alertItem) { alertItem in
             Alert(title: alertItem.title, message: alertItem.message, dismissButton: alertItem.dismissButton)
