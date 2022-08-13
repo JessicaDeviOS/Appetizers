@@ -26,6 +26,7 @@
 		4CFAF2EE28A48A4B00BFF005 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2ED28A48A4B00BFF005 /* AppetizerDetailView.swift */; };
 		4CFAF2F128A5D3FE00BFF005 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2F028A5D3FE00BFF005 /* APButton.swift */; };
 		4CFAF2F328A5D4AC00BFF005 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2F228A5D4AC00BFF005 /* XDismissButton.swift */; };
+		4CFAF2FA28A7293B00BFF005 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2F928A7293B00BFF005 /* AccountViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		4CFAF2ED28A48A4B00BFF005 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		4CFAF2F028A5D3FE00BFF005 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		4CFAF2F228A5D4AC00BFF005 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		4CFAF2F928A7293B00BFF005 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				4CFAF2E328A324B600BFF005 /* AppetizerListViewModel.swift */,
+				4CFAF2F928A7293B00BFF005 /* AccountViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				4CFAF2DB28A1F4EF00BFF005 /* APError.swift in Sources */,
 				4CFAF2F328A5D4AC00BFF005 /* XDismissButton.swift in Sources */,
 				4CFAF2D628A1F23A00BFF005 /* AppetizerListCell.swift in Sources */,
+				4CFAF2FA28A7293B00BFF005 /* AccountViewModel.swift in Sources */,
 				4CFAF2E428A324B600BFF005 /* AppetizerListViewModel.swift in Sources */,
 				4CFAF2EA28A32BE700BFF005 /* Color+Ext.swift in Sources */,
 				4CFAF2E828A32B3400BFF005 /* ActivityIndicator.swift in Sources */,
