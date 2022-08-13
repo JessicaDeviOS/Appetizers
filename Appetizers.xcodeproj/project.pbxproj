@@ -28,6 +28,7 @@
 		4CFAF2F328A5D4AC00BFF005 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2F228A5D4AC00BFF005 /* XDismissButton.swift */; };
 		4CFAF2FA28A7293B00BFF005 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2F928A7293B00BFF005 /* AccountViewModel.swift */; };
 		4CFAF2FD28A72AED00BFF005 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2FC28A72AED00BFF005 /* String+Ext.swift */; };
+		4CFAF2FF28A7F5CC00BFF005 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2FE28A7F5CC00BFF005 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		4CFAF2F228A5D4AC00BFF005 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		4CFAF2F928A7293B00BFF005 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		4CFAF2FC28A72AED00BFF005 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		4CFAF2FE28A7F5CC00BFF005 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				4CFAF2D228A1EA7900BFF005 /* Appetizer.swift */,
 				4CFAF2D828A1F3B400BFF005 /* NetworkManager.swift */,
 				4CFAF2DA28A1F4EF00BFF005 /* APError.swift */,
+				4CFAF2FE28A7F5CC00BFF005 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				4CFAF2E428A324B600BFF005 /* AppetizerListViewModel.swift in Sources */,
 				4CFAF2EA28A32BE700BFF005 /* Color+Ext.swift in Sources */,
 				4CFAF2E828A32B3400BFF005 /* ActivityIndicator.swift in Sources */,
+				4CFAF2FF28A7F5CC00BFF005 /* User.swift in Sources */,
 				4CFAF2F128A5D3FE00BFF005 /* APButton.swift in Sources */,
 				4C9665872894C60100B573CE /* AccountView.swift in Sources */,
 				4C9665792894C58300B573CE /* AppetizerTabView.swift in Sources */,
