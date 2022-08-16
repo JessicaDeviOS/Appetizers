@@ -30,6 +30,7 @@
 		4CFAF2FD28A72AED00BFF005 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2FC28A72AED00BFF005 /* String+Ext.swift */; };
 		4CFAF2FF28A7F5CC00BFF005 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF2FE28A7F5CC00BFF005 /* User.swift */; };
 		4CFAF30228AB1AEC00BFF005 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF30128AB1AEC00BFF005 /* EmptyState.swift */; };
+		4CFAF30428AB1DCD00BFF005 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAF30328AB1DCD00BFF005 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		4CFAF2FC28A72AED00BFF005 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		4CFAF2FE28A7F5CC00BFF005 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4CFAF30128AB1AEC00BFF005 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		4CFAF30328AB1DCD00BFF005 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				4CFAF2D828A1F3B400BFF005 /* NetworkManager.swift */,
 				4CFAF2DA28A1F4EF00BFF005 /* APError.swift */,
 				4CFAF2FE28A7F5CC00BFF005 /* User.swift */,
+				4CFAF30328AB1DCD00BFF005 /* Order.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				4CFAF2DB28A1F4EF00BFF005 /* APError.swift in Sources */,
 				4CFAF2F328A5D4AC00BFF005 /* XDismissButton.swift in Sources */,
 				4CFAF2D628A1F23A00BFF005 /* AppetizerListCell.swift in Sources */,
+				4CFAF30428AB1DCD00BFF005 /* Order.swift in Sources */,
 				4CFAF2FA28A7293B00BFF005 /* AccountViewModel.swift in Sources */,
 				4CFAF2E428A324B600BFF005 /* AppetizerListViewModel.swift in Sources */,
 				4CFAF2EA28A32BE700BFF005 /* Color+Ext.swift in Sources */,

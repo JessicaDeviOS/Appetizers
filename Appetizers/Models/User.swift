@@ -15,6 +15,4 @@ struct User: Codable {
     var birthdate = Date()
     var extraNapkins = false
     var frequentRefills = false
-
-    
 }
